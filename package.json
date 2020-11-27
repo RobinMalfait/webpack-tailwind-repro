@@ -10,6 +10,9 @@
   "author": "Robin Malfait",
   "license": "ISC",
   "dependencies": {
+    "autoprefixer": "^10.0.3",
+    "postcss": "^8.1.10",
+    "tailwindcss": "^2.0.1",
     "webpack": "^5.8.0"
   },
   "devDependencies": {
