@@ -1,0 +1,17 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer components {
+  .window-control {
+    @apply h-6 w-6 inline-block fill-current text-white;
+  }
+
+  .btn {
+    @apply flex items-center justify-center space-x-2 hover:bg-gray-50;
+  }
+
+  .btn-blue {
+    @apply btn bg-blue-500 hover:bg-blue-50;
+  }
+}
