@@ -1,0 +1,20 @@
+@layer components {
+  .btn {
+    @apply flex items-center justify-center space-x-2 bg-gray-500 hover:bg-gray-50;
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-gray-50 p-12 relative;
+  }
+
+  body::after {
+    content: 'I am a box';
+    @apply absolute inset-0 flex items-center justify-center;
+    @apply text-2xl text-white font-bold;
+
+    /* You can change `blue` to `pink` for example */
+    @apply p-12 m-12 rounded-lg shadow bg-blue-500;
+  }
+}
